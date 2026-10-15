@@ -1,0 +1,9 @@
+{
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/((?!assets/|profile.jpg|resume.pdf|Sankar_S_Resume.pdf|favicon.svg|icons.svg).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
